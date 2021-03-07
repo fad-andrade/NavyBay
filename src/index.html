@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NavyBay</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="./css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="./css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="./css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-md border rounded navigation-clean-button" style="background-color: #0c0b2f;">
+      <div class="container"><i class="fas fa-ship" style="color: #e94f63;background-size: auto;font-size: 24px;"></i><a class="navbar-brand" href="#" style="color: #ffffff;margin-left: 5px;">NavyBay</a><button data-toggle="collapse" class="navbar-toggler border rounded border-dark"
+              data-target="#navcol-1" style="background-color: #66d7d7;color: #363739;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+              <ul class="nav navbar-nav mr-auto">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: rgb(255,255,255);">About Us</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(255,255,255);">Contact Us</a></li>
+              </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" style="background-color: #e94f63;color: #ffffff;font-style: normal;font-weight: bold;">Log In</a></span></div>
+      </div>
+  </nav>
+  <div class="register-photo" style="background-color: #ffffff;background-repeat: repeat-x;">
+      <div class="form-container">
+          <div class="border rounded image-holder" style="background-image: url(&quot;./img/welcome.png&quot;);background-position: center;background-repeat: space;"></div>
+          <form class="border rounded" style="background-color: #0c0b2f;">
+              <h2 class="text-center" style="color: rgb(255,255,255);"><strong>Create</strong> an account.</h2>
+              <div class="form-group"><input id="register-name" class="border rounded form-control" type="text" style="background-color: rgb(247,249,252);" placeholder="How can we call you?" name="name" required="" minlength="1" maxlength="50"></div>
+              <div class="form-group"><select id="register-cat" class="border rounded form-control" name="type" required=""><option value="-1">You are a kind of...</option><option value="0">Band</option><option value="1">Musician</option><option value="2">Singer</option><option value="3">Designer</option><option value="4">Painter</option><option value="5">Artist's group</option><option value="6">Other</option><option value="7">Art lover</option></select></div>
+              <div
+                  class="form-group"><input id="register-email" class="border rounded form-control" type="email" name="email" placeholder="Email" inputmode="email" required="" minlength="9" maxlength="50"></div>
+      <div class="form-group"><input id="register-pass" class="border rounded form-control" type="password" name="password" placeholder="Password" required="" minlength="6" maxlength="12"></div>
+      <div class="form-group">
+          <div class="form-check"><label class="form-check-label" style="color: rgb(255,255,255);font-weight: normal;"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+      </div>
+      <div class="form-group"><button class="btn btn-primary btn-block btn-register" type="submit" style="color: #ffffff;font-weight: bold;background-color: #e94f63;">Sign Up</button></div><a class="already" href="#" style="color: rgb(255,255,255);font-weight: bold;">You already have an account? Login here.</a></form>
+  </div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="../node_modules/md5/md5.js"></script>
+  </body>
+</html>
